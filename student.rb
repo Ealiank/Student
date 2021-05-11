@@ -1,5 +1,15 @@
 class Student
-  def initialize
+  def initialize(name, date_of_birth)
+    @name = name
+    @date_of_birth = date_of_birth
+  end
+
+  def name
+    @name
+  end
+
+  def date_of_birth
+    @date_of_birth
   end
 
   def study
